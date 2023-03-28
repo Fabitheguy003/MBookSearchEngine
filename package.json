@@ -20,7 +20,7 @@
     "concurrently": "^5.1.0"
   },
   "dependencies": {
-    "bcrypt": "^5.0.0",
+    "bcrypt": "^5.0.1",
     "serve": "^13.0.2"
   }
 }
