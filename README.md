@@ -8,7 +8,7 @@ In this project, we are using the MERN stack and GraphQL, as well as the Google 
 https://macbookengine.herokuapp.com/
 
 Below is the image of the application.
-![Homepage](./Images/Google%20Book%20Search%20-%20Cent%20Browser%202023-03-31%2011_41_00%20AM.png)
+![Homepage](/Develop/Images/Google%20Book%20Search%20-%20Cent%20Browser%202023-03-31%2011_41_00%20AM.png)
 
 # Table of Contents
 * [Heroku Link](#Heroku Deployment link)
