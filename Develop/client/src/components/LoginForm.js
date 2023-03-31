@@ -16,7 +16,7 @@ const LoginForm = () => {
     // using the apollo hook  useMutation pass the 
   // ADD_USER mutation in order to talk to graphql
   // addUser will hold the output and error the error
-  const [login, { error }] = useMutation(loginUser);
+  const [login] = useMutation(loginUser);
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;

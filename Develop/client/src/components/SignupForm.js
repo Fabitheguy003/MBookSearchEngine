@@ -15,7 +15,7 @@ const SignupForm = () => {
   // using the apollo hook  useMutation pass the 
   // ADD_USER mutation in order to talk to graphql
   // addUser will hold the output and error the error
-  const [addUser, { error }] = useMutation(ADD_USER);
+  const [addUser] = useMutation(ADD_USER);
   // set state for alert
   const [showAlert, setShowAlert] = useState(false);
 

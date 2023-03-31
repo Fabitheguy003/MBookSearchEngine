@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, {} from 'react';
 import { 
   Jumbotron, 
   Container, 
@@ -17,7 +17,7 @@ import { removeBookId } from '../utils/localStorage';
 const SavedBooks = () => {
 
   const { loading, data} = useQuery(getMe);
-  const [removeBook, {error}] = useMutation(REMOVE_BOOK);
+  const [removeBook] = useMutation(REMOVE_BOOK);
 
   
     //debugger

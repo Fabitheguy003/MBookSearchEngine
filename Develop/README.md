@@ -1,125 +1,35 @@
-## REACT Web Portfolio Challenge: REACT Web Portfolio
-
-1. [ Description. ](#desc)
-2. [ Web Address. ](#web-address)
-3. [ Usage tips. ](#usage)
-4. [ Features. ](#features)
-5. [ Credits. ](#credits)
-6. [ Licenses. ](#licenses)
-7. [ Install Command. ](#commandInstall)
-8. [ Test Command. ](#commandTest)
-9. [ Contributing. ](#contributing)
-9. [ Questions. ](#questions)
-
-### For license description, click on the badge to get more information.
-[![License](https://img.shields.io/badge/License-MIT%20-blue.svg)](https://opensource.org/licenses/mit)
-
-<a name="desc"></a>
-## 1. Description
-
-This is a full stack web application that was built using REACT, Bootstrap, Graphql, Jwt MongoDB and Apollo.
-
-### Major tech snapshot
-
-![tech](assets/images/tech-used.JPG?raw=true "code-used.JPG")
-
-<a name="web-address"></a>
-## 2. How to Get There
-
-### Open your favorite web browser and enter the following web address to start using the website.
-
-https://esroleo-mern-challenge.herokuapp.com/
+# Book Search Engine Starter Code
 
 
-<a name="usage"></a>
-## 3. Usage Tips
+# Description
+In this project, we are using the MERN stack and GraphQL, as well as the Google Books API so that users can find and save titles they are interested in.
 
-This application is a Google Books finder using an API via Graphql/Apollo Server. Please check out the features to see how to use the web application.
+# Heroku Deployment link
+https://macbookengine.herokuapp.com/
 
-If you want to run locally perform the following:
+Below is the image of the application.
+![Homepage](./Images/Google%20Book%20Search%20-%20Cent%20Browser%202023-03-31%2011_41_00%20AM.png)
 
-If you are still interested in running the application you would need to do the following:
-* git clone
-* navigate to root path
-* npm i
-* npm start
-* use website http://localhost:3000/
+# Table of Contents
+* [Heroku Link](#Heroku Deployment link)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
 
-<a name="features"></a>
-## 4. Features
+# Installation
+Clone the repo to your local machine and install the dependencies such as Node, Express, MongoDB by 'npm install', then run server.js by 'npm run start' in your terminal. The site will be running locally on localhost:3001.
 
-### Application is both desktop and mobile friendly.
-
-### Main Page
-
-![step](assets/images/landing-page.JPG?raw=true "landing-page.JPG")
+# Usage
+To use the app, go to the live link listed above.  Click "Login/Sign Up" to either log in or create an account. When you are logged in, and you perform a search, you will see a button below each search result that you can click on to add the book to your list. Once you have books on your list, click on "See Your Books" to see the list of books you have saved. You can click on the "Delete this Book!" button to remove the selection from your list of saved books."
 
 
-### Sign up
+## License
+  # MIT
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-![step](assets/images/sign-in-page.JPG?raw=true "sign-in-page.JPG")
-
-### Log In
-
-![step](assets/images/log-in-page.JPG?raw=true "log-in-page.JPG")
-
-
-### Search Book
-
-![step](assets/images/search-book.JPG?raw=true "search-book.JPG")
-
-
-### Google Book Link 
-
-![step](assets/images/google-book-link.JPG?raw=true "google-book-link.JPG")
-
-
-### Books Saved
-
-![step](assets/images/books-saved.JPG?raw=true "books-saved.JPG")
-
-### Saved Books Screen
-
-![step](assets/images/saved-books-screen.JPG?raw=true "saved-books-screen.JPG")
-
-
-<a name="credits"></a>
-## 5. Credits
-
-REACT for creating such an amazing way of rending our web pages!
-GraphQL for making it possible to use another tech besided REST API
-Apollo Server for allowing integration between REACT and Graphql
-MongoDB for the NOSql Technology and all other dependencies on the app.
-
-<a name="licenses"></a>
-## 6. Licenses
-
-mit
-
-<a name="commandInstall"></a>
-## 7. Install Command
-
-### npm install command will install javascript dependencies
-
-npm i
-
-<a name="commandTest"></a>
-## 8. Test Command
-
-No test commands available, if you would like any, please let me know.
-
-<a name="contributing"></a>
-## 9. Contributing
-
-Please email Esteban Romero --> esroleo@gmail.com
-
-<a name="questions"></a>
-## 10. Questions
-
-Please reach out to me
-
-GitHub Url: https://github.com/esroleo
-
-LinkedIn: https://www.linkedin.com/in/esroleo/
-
-Email address: esroleo@gmail.com
+## Questions:
+ Here is a link to my github:  
+https://github.com/Fabitheguy003  
+ Email me at:  
+Fabienmukungu@gmail.com  
+for additional questions

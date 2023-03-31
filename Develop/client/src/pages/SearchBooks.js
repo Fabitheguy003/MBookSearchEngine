@@ -7,7 +7,7 @@ import { SAVE_BOOK } from '../utils/mutations';
 import Auth from '../utils/auth';
 
 // old API path for saveBook not used
-import { saveBook, searchGoogleBooks } from '../utils/API';
+import { searchGoogleBooks } from '../utils/API';
 import { saveBookIds, getSavedBookIds } from '../utils/localStorage';
 
 const SearchBooks = () => {
@@ -62,7 +62,7 @@ const SearchBooks = () => {
 
 
    // addUser will hold the output and error the error
-    const [saveBook, { error }] = useMutation(SAVE_BOOK);
+    const [saveBook] = useMutation(SAVE_BOOK);
     
 
   // create function to handle saving a book to our database
